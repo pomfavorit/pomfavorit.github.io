@@ -61,7 +61,7 @@
         "url": "https://fonts.googleapis.com/css?family=Balsamiq+Sans:400,400i,700,700i"
       }
     ],
-    "uniqCompNum": 51,
+    "uniqCompNum": 52,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -1138,7 +1138,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mila-removebg-preview-2-611x408.png",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": false,
                 "showTitle": false,
@@ -1157,10 +1157,10 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/kamilla-268x210.jpg",
+                "image": "@PROJECT_PATH@/assets/images/candy-1-400x267-removebg-preview-400x267.png",
                 "active": false,
-                "showButtons": false,
-                "showText": true,
+                "showButtons": true,
+                "showText": false,
                 "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1170,16 +1170,17 @@
                 "alt": "",
                 "title": "",
                 "textTitle": "ВИДЕО СЛАЙД",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "center",
                 "text": "Слайд с фоновым изображением YouTube и цветным наложением. Заголовок и текст выровнены влево.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
+                "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/candy-1-400x267.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
+                "image": "@PROJECT_PATH@/assets/images/njusha-removebg-preview-577x433.png",
+                "active": true,
+                "showButtons": true,
+                "showText": false,
                 "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1189,10 +1190,10 @@
                 "alt": "",
                 "title": "",
                 "textTitle": "СЛАЙДЕР ИЗОБРАЖЕНИЙ",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>"
               }
             ]
           },
@@ -1284,233 +1285,16 @@
                   "margin-left": "0 !important"
                 }
               }
-            },
-            ".body-item": {
-              "text-align": "center"
             }
           },
           "_name": "table1",
-          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n    <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Столбцы\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Ряды\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"1\">\n    <input type=\"color\" title=\"Цвет границы\" name=\"tbColor\" value=\"#cccccc\">\n    <input type=\"checkbox\" title=\"Фон\" name=\"tbBackground\" checked>\n    <input type=\"color\" title=\"Цвет фона\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Поиск\" name=\"isSearch\">\n    <input type=\"text\" title=\"Text Empty\" name=\"textEmpty\" condition=\"isSearch\" value=\"No matching records found\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mila-removebg-preview-1-611x408.png\" parallax selected>\n      <input type=\"color\" title=\"Цвет фона\" value=\"#f9f9f9\">\n      <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n          Таблица\n      </h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Нажмите синюю кнопку шестеренки в правом верхнем углу, чтобы скрыть/показать поле поиска, изменить фон таблицы и другие параметры. В браузере щелкните на надпись в шапке таблицы, чтобы отсортировать таблицу, используйте поиск для фильтрации.     \n      </h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".searchInfo\">Поиск:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\" data-empty=\"{{textEmpty}}\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">PEDIGREE &nbsp;</th>\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">FOR POMFAVORIT</th>\n                  \n                  \n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">KAMILLA</th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><br><br><br>Posh’s The Transformer<br>Ч.РОС, Ч.КАН<br><br><br><br><br><br><br><br><br><br><br><br><br>Dilina Royal White As Snow</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">&nbsp;<br><br> Eagle Creek’s Hamin It Up<br>CH.USA<br><br>---<br><br>&nbsp;Jolvin Kim Possible<br><br><br><br><br><br><br>Mountain Crest Deep Red<br>CH.EST<br><br>---<br><br><br>Каролла Из Цветной Капели<br><br></td>\n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Stolanne’s Back Talk<br>CH.USA<br>---<br>Heartland’s A Flash From Heavn<br><br><br>&nbsp;Pufpride Sweet Dreams<br>CH.USA, CH.CAN, CH.THA<br>---<br>&nbsp;Toyland Jolvin Southern Song<br><br><br>Damascusroad Dream Buster<br>ROMX CH.USA<br>---<br>Mountain Crest Just Perfect<br><br><br>Shyacres One Men Kan<br>Ч.РОС<br>---<br>&nbsp;Вивьен Из Каскада Грёз</td></tr>\n              \n              \n              \n            </tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Отражено</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">записи</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(фильтр на</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> записи)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
-          "_cid": "s85RCmPsti",
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n    <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Столбцы\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Ряды\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"8\">\n    <input type=\"color\" title=\"Цвет границы\" name=\"tbColor\" value=\"#cccccc\">\n    <input type=\"checkbox\" title=\"Фон\" name=\"tbBackground\" checked>\n    <input type=\"color\" title=\"Цвет фона\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Поиск\" name=\"isSearch\" checked>\n    <input type=\"text\" title=\"Text Empty\" name=\"textEmpty\" condition=\"isSearch\" value=\"No matching records found\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mila-removebg-preview-1-611x408.png\" parallax selected>\n      <input type=\"color\" title=\"Цвет фона\" value=\"#f9f9f9\">\n      <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n          Таблица\n      </h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Нажмите синюю кнопку шестеренки в правом верхнем углу, чтобы скрыть/показать поле поиска, изменить фон таблицы и другие параметры. В браузере щелкните на надпись в шапке таблицы, чтобы отсортировать таблицу, используйте поиск для фильтрации.     \n      </h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".searchInfo\">Поиск:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\" data-empty=\"{{textEmpty}}\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      ИМЯ</th>\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      ВОЗРАСТ</th>\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      ДАТА</th>\n                  \n              </tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Жанна Шмаль</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">44</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">q</td>\n                \n              </tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">3er</td>\n                \n              </tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">66</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-22</td>\n                \n              </tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-15</td>\n                \n              </tr>\n            <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">70</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-15</td>\n                \n              </tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-15</td>\n                \n              </tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">70</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-15</td>\n                \n              </tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Шала Баррера</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">70</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-15</td>\n                \n              </tr></tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Отражено</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">записи</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(фильтр на</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> записи)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
+          "_cid": "s85XONu2wA",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "table1-1b"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "text-align": "center",
-              "font-weight": "300"
-            },
-            ".step": {
-              "width": "(@stepSize * 2px)",
-              "height": "(@stepSize * 2px)",
-              "font-size": "~\"@{stepSize}px\"",
-              "border-radius": "50%",
-              "border": "2px solid @lineColor",
-              "& when (@stepSize > 24px)": {
-                "@media (max-width: 767px)": {
-                  "width": "48px",
-                  "height": "48px",
-                  "font-size": "24px"
-                }
-              }
-            },
-            ".separline": {
-              "position": "relative",
-              "&:after": {
-                "top": "((@stepSize * 2px) + 4px)",
-                "left": "(@stepSize - 2px)",
-                "position": "absolute",
-                "content": "\"\"",
-                "width": "2px",
-                "height": "~\"calc(100% - (@{stepSize}px + 4px) * 2)\"",
-                "background-color": "@lineColor",
-                "& when (@stepSize > 24px)": {
-                  "@media (max-width: 767px)": {
-                    "top": "52px",
-                    "left": "22px",
-                    "height": "~\"calc(100% - 56px)\""
-                  }
-                }
-              }
-            },
-            ".media-block when (@showMedia)": {
-              "flex-shrink": "0",
-              "-webkit-flex-shrink": "0",
-              "@media (min-width: 992px)": {
-                "& when (@reverseContent)": {
-                  "padding-left": "2rem"
-                },
-                "& when not (@reverseContent)": {
-                  "padding-right": "2rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                "flex-basis": "100%",
-                "-webkit-flex-basis": "100%",
-                "padding-bottom": "2rem"
-              }
-            },
-            ".media-container-row when (@reverseContent) and (@showMedia)": {
-              "-webkit-flex-direction": "row-reverse",
-              "flex-direction": "row-reverse"
-            }
-          },
-          "_name": "step3",
-          "_customHTML": "<section class=\"step3\" group=\"Timelines &amp; Steps\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\" checked=\"\">\n        \n        <input type=\"checkbox\" title=\"Медиа\" name=\"showMedia\" checked=\"\">\n        <input type=\"range\" title=\"Размер медиа\" inline=\"\" name=\"mediaSize\" min=\"20\" max=\"60\" value=\"49\" condition=\"showMedia\">\n        <input type=\"checkbox\" title=\"Медиа Слева/Справа\" name=\"reverseContent\" condition=\"showMedia\">\n        \n        <input type=\"checkbox\" title=\"Show Step Title\" name=\"showStepTitle\" checked=\"\">\n        \n        <input type=\"color\" title=\"line Color\" name=\"lineColor\" value=\"#efefef\">\n        <select title=\"Steps Count\" name=\"stepsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Step Size\" name=\"stepSize\" min=\"10\" max=\"50\" step=\"1\" value=\"32\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Steps and Media</h2>\n        <h3 class=\"mbr-section-subtitle pb-5 mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit\n        </h3>\n        <div class=\"media-container-row\">\n            <div class=\"media-block\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"../_images/background6.jpg\">\n                </div>\n            </div>\n            <div class=\"step-container\">\n                <div class=\"card\" mbr-class=\"{'separline pb-4': stepsAmount > '1'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                1\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">Specification\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 1\" mbr-class=\"{'separline pb-4': stepsAmount > '2'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                2\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">Project Planning</h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 2\" mbr-class=\"{'separline pb-4': stepsAmount > '3'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                3\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">Deployment\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 3\" mbr-class=\"{'separline pb-4': stepsAmount > '4'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                4\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">\n                                Deployment\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 4\" mbr-class=\"{'separline pb-4': stepsAmount > '5'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                5\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">\n                                Deployment\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 5\" mbr-class=\"{'separline pb-4': stepsAmount > '6'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                6\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">\n                                Deployment\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 6\" mbr-class=\"{'separline pb-4': stepsAmount > '7'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                7\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">\n                                Deployment\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 7\" mbr-class=\"{'separline pb-4': stepsAmount > '8'}\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                8\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">\n                                Deployment\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"stepsAmount > 8\">\n                    <div class=\"step-element d-flex\">\n                        <div class=\"step-wrapper pr-3\">\n                            <div class=\"step d-flex align-items-center justify-content-center\" data-app-selector=\".step\">\n                                9\n                            </div>\n                        </div>          \n                        <div class=\"step-text-content\">\n                            <h4 class=\"mbr-step-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\">\n                                Deployment\n                            </h4>\n                            <p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\">\n                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s85RYUxT7o",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "step3-1c"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".progress": {
-              "width": "100%"
-            },
-            "progress": {
-              "height": "8px"
-            },
-            "h3": {
-              "text-align": "center",
-              "font-weight": "300"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            },
-            ".progress_value": {
-              "position": "relative"
-            },
-            ".progress_elements": {
-              "margin": "0 auto"
-            },
-            ".title-wrap": {
-              "display": "flex",
-              "justify-content": "space-between",
-              "-webkit-justify-content": "space-between"
-            },
-            ".progress1 .progressbar-number:before, .progress2 .progressbar-number:before, .progress3 .progressbar-number:before, .progress4 .progressbar-number:before": {
-              "position": "absolute",
-              "right": "15px",
-              "top": "0"
-            },
-            "progress[value]::-webkit-progress-bar": {
-              "background": "rgba(206, 206, 206, 0.4)"
-            },
-            "progress::-webkit-progress-value": {
-              "background": "@progressColor"
-            },
-            "progress[value]::-moz-progress-bar": {
-              "background": "@progressColor"
-            },
-            "progress::-ms-fill": {
-              "background": "@progressColor"
-            },
-            ".progress1 .progressbar-number:before": {
-              "content": "'@{progress1}'"
-            },
-            ".progress2 .progressbar-number:before": {
-              "content": "'@{progress2}'"
-            },
-            ".progress3 .progressbar-number:before": {
-              "content": "'@{progress3}'"
-            },
-            ".progress4 .progressbar-number:before": {
-              "content": "'@{progress4}'"
-            },
-            ".progress-primary": {
-              "background": "rgba(206, 206, 206, 0.4)",
-              "border": "none",
-              "outline": "none"
-            },
-            ".progress-primary::-webkit-progress-bar": {
-              "background": "rgba(206, 206, 206, 0.4)"
-            },
-            ".progress_value span": {
-              "padding-left": "30px"
-            }
-          },
-          "_name": "progress-bars1",
-          "_customHTML": "<section class=\"progress-bars1\" group=\"Progress\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">        \n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"color\" title=\"Цвет\" name=\"progressColor\" value=\"#149dcc\">\n\n        <select title=\"Число\" name=\"progressCount\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\" selected=\"\">4</option>\n        </select>\n\n        <input type=\"range\" inline=\"\" title=\"Прогресс 1\" name=\"progress1\" min=\"0\" max=\"100\" step=\"1\" value=\"70\">\n        <input type=\"range\" inline=\"\" title=\"Прогресс 2\" name=\"progress2\" min=\"0\" max=\"100\" step=\"1\" value=\"80\" condition=\"progressCount>1\">\n        <input type=\"range\" inline=\"\" title=\"Прогресс 3\" name=\"progress3\" min=\"0\" max=\"100\" step=\"1\" value=\"90\" condition=\"progressCount>2\">\n        <input type=\"range\" inline=\"\" title=\"Прогресс 4\" name=\"progress4\" min=\"0\" max=\"100\" step=\"1\" value=\"100\" condition=\"progressCount>3\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->  \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-2 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Горизонтальные прогресс-бары\n        </h2>\n\n        <h3 class=\"mbr-section-subtitle pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Нажмите синюю кнопку шестеренки в правом верхнем углу, чтобы скрыть/показать прогресс-бар, изменить цвет и значение. Щелкните текст, чтобы отредактировать или изменить стиль.\n        </h3>\n\n        <div class=\"progress_elements\">\n            <div class=\"progress1 pb-5\">\n                <div class=\"title-wrap\">\n                    <div class=\"progressbar-title mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                        <p data-app-selector=\".progressbar-title p, .progress_value\">\n                            Удобство\n                        </p>\n                    </div>\n                    <div class=\"progress_value mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                        <div class=\"progressbar-number\"></div>\n                        <span>%</span>\n                    </div>\n                </div>\n                <progress class=\"progress progress-primary\" value=\"{{progress1}}\" max=\"100\">\n                </progress>\n            </div>\n            \n            <div class=\"progress2 pb-5\" mbr-if=\"progressCount > 1\">\n                <div class=\"title-wrap\">\n                    <div class=\"progressbar-title mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                        <p data-app-selector=\".progressbar-title p, .progress_value\">\n                           Доступность\n                        </p>\n                    </div>\n                <div class=\"progress_value mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    <div class=\"progressbar-number\"></div>\n                    <span>%</span>\n                </div>\n                </div>\n                <progress class=\"progress progress-primary\" value=\"{{progress2}}\" max=\"100\">\n                </progress>\n            </div>\n            \n            <div class=\"progress3 pb-5\" mbr-if=\"progressCount > 2\">\n                <div class=\"title-wrap\">\n                    <div class=\"progressbar-title mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                        <p data-app-selector=\".progressbar-title p, .progress_value\">\n                            Популярность\n                        </p>\n                    </div>\n                    <div class=\"progress_value mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                        <div class=\"progressbar-number\"></div>\n                        <span>%</span>\n                    </div>\n                </div>\n                <progress class=\"progress progress-primary\" value=\"{{progress3}}\" max=\"100\">\n                </progress>\n            </div>\n            \n            <div class=\"progress4\" mbr-if=\"progressCount > 3\">\n                <div class=\"title-wrap\">\n                    <div class=\"progressbar-title mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                        <p data-app-selector=\".progressbar-title p, .progress_value\">\n                            Безопасность\n                        </p>\n                    </div>\n                <div class=\"progress_value mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    <div class=\"progressbar-number\"></div>\n                    <span>%</span>\n                </div>\n                </div>\n                <progress class=\"progress progress-primary\" value=\"{{progress4}}\" max=\"100\">\n                </progress>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s85S0Dt5mH",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "progress-bars1-1d"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".pricing": {
-              "padding": "3.3rem",
-              "color": "#767676",
-              "background-color": "#fff",
-              "@media (max-width: 767px)": {
-                "padding": "1.5rem"
-              }
-            },
-            ".plan-header, .plan-body": {
-              "background-color": "#fff"
-            },
-            ".plan-title": {
-              "margin-top": "1.4rem"
-            },
-            ".price-figure": {
-              "font-weight": "700",
-              "color": "#232323",
-              "@media (max-width: 550px)": {
-                "font-size": "4.25rem"
-              }
-            },
-            ".price-value": {
-              "font-weight": "700",
-              "vertical-align": "top"
-            },
-            "hr": {
-              "margin": "2rem 0"
-            }
-          },
-          "_name": "pricing-tables3",
-          "_customHTML": "<section group=\"Pricing Tables\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" class=\"pricing-table3\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline=\"\" type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline=\"\" type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#efefef\" selected=\"\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" checked=\"\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\" col-12 col-lg-4 col-md-6 my-2\">\n                <div class=\"pricing\">\n                    <div class=\"plan-header\">\n                        <div class=\"plan-price\">\n                            <span mbr-text=\"\" class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                                $\n                            </span>\n                            <span mbr-text=\"\" class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                                35\n                            </span>\n                            <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                                Standard\n                            </h3>\n                            <hr>\n                        </div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                        </p>\n                        <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-4 text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-lg-4 col-md-6 my-2\">\n                <div class=\"pricing\">\n                    <div class=\"plan-header\">\n                        <div class=\"plan-price\">\n                            <span mbr-text=\"\" class=\"price-value mbr-fonts-style\" data-app-selector=\".price-value\" mbr-theme-style=\"display-5\">\n                                $\n                            </span>\n                            <span mbr-text=\"\" class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                                65\n                            </span>\n                            <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                                Бизнес\n                            </h3>\n                            <hr>\n                        </div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                        </p>\n                        <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-4 text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-lg-4 col-md-6 my-2\">\n                <div class=\"pricing\">\n                    <div class=\"plan-header\">\n                        <div class=\"plan-price\">\n                            <span mbr-text=\"\" class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                                $\n                            </span>\n                            <span mbr-text=\"\" class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                                90\n                            </span>\n                            <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                                Премиум\n                            </h3>\n                            <hr>\n                        </div>\n                    </div>\n                    <div class=\"plan-body \">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                        </p>\n                        <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-4 text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>\n",
-          "_cid": "s85S3sWFlX",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "pricing-tables3-1e"
+          "_anchor": "table1-1f"
         }
       ]
     }

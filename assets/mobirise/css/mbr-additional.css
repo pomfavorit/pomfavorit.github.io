@@ -1626,254 +1626,82 @@ section.lazy-placeholder:after {
 .cid-s85Nq8bUAt .content-slider-wrap {
   width: 51%;
 }
-.cid-s85RCmPsti {
+.cid-s85XONu2wA {
   padding-top: 90px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/mila-removebg-preview-1-611x408.png");
 }
-.cid-s85RCmPsti .mbr-section-subtitle {
+.cid-s85XONu2wA .mbr-section-subtitle {
   color: #767676;
 }
-.cid-s85RCmPsti .container-table {
+.cid-s85XONu2wA .container-table {
   margin: 0 auto;
 }
-.cid-s85RCmPsti .scroll {
+.cid-s85XONu2wA .scroll {
   overflow-x: auto;
   padding: 0;
 }
-.cid-s85RCmPsti .dataTables_wrapper {
+.cid-s85XONu2wA .dataTables_wrapper {
   display: block;
 }
-.cid-s85RCmPsti .dataTables_wrapper .search {
+.cid-s85XONu2wA .dataTables_wrapper .search {
   margin-bottom: .5rem;
 }
-.cid-s85RCmPsti .dataTables_wrapper .table {
+.cid-s85XONu2wA .dataTables_wrapper .table {
   overflow-x: auto;
 }
-.cid-s85RCmPsti table {
+.cid-s85XONu2wA table {
   width: 100% !important;
   margin-top: 6px;
   border: 1px solid #cccccc;
   margin-bottom: 0;
 }
-.cid-s85RCmPsti table th {
+.cid-s85XONu2wA table th {
   border-top: none;
   transition: all .2s;
   border-bottom: none;
 }
-.cid-s85RCmPsti table th:hover {
+.cid-s85XONu2wA table th:hover {
   background: #cccccc;
   color: #000000;
 }
-.cid-s85RCmPsti table td {
+.cid-s85XONu2wA table td {
   border-top: 1px solid #cccccc;
 }
-.cid-s85RCmPsti table.table {
+.cid-s85XONu2wA table.table {
   background: #ffffff;
 }
-.cid-s85RCmPsti .dataTables_filter {
+.cid-s85XONu2wA .dataTables_filter {
   text-align: right;
   margin-bottom: .5rem;
 }
-.cid-s85RCmPsti .dataTables_filter label {
+.cid-s85XONu2wA .dataTables_filter label {
   display: inline;
   white-space: normal !important;
 }
-.cid-s85RCmPsti .dataTables_filter input {
+.cid-s85XONu2wA .dataTables_filter input {
   display: inline;
   width: auto;
   margin-left: .5rem;
   border-radius: 100px;
   padding-left: 1rem;
 }
-.cid-s85RCmPsti .dataTables_info {
+.cid-s85XONu2wA .dataTables_info {
   padding-bottom: 1rem;
   padding-top: 1rem;
   white-space: normal !important;
 }
 @media (max-width: 992px) {
-  .cid-s85RCmPsti .dataTables_filter {
+  .cid-s85XONu2wA .dataTables_filter {
     text-align: center;
   }
 }
 @media (max-width: 350px) {
-  .cid-s85RCmPsti .dataTables_filter {
+  .cid-s85XONu2wA .dataTables_filter {
     text-align: center;
   }
-  .cid-s85RCmPsti .dataTables_filter input {
+  .cid-s85XONu2wA .dataTables_filter input {
     width: 100% !important;
     margin-left: 0 !important;
   }
-}
-.cid-s85RCmPsti .body-item {
-  text-align: center;
-}
-.cid-s85RYUxT7o {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-s85RYUxT7o .mbr-section-subtitle {
-  color: #767676;
-  text-align: center;
-  font-weight: 300;
-}
-.cid-s85RYUxT7o .step {
-  width: 64px;
-  height: 64px;
-  font-size: 32px;
-  border-radius: 50%;
-  border: 2px solid #efefef;
-}
-@media (max-width: 767px) {
-  .cid-s85RYUxT7o .step {
-    width: 48px;
-    height: 48px;
-    font-size: 24px;
-  }
-}
-.cid-s85RYUxT7o .separline {
-  position: relative;
-}
-.cid-s85RYUxT7o .separline:after {
-  top: 68px;
-  left: 30px;
-  position: absolute;
-  content: "";
-  width: 2px;
-  height: calc(100% - (32px + 4px) * 2);
-  background-color: #efefef;
-}
-@media (max-width: 767px) {
-  .cid-s85RYUxT7o .separline:after {
-    top: 52px;
-    left: 22px;
-    height: calc(100% - 56px);
-  }
-}
-.cid-s85RYUxT7o .media-block {
-  flex-shrink: 0;
-  -webkit-flex-shrink: 0;
-}
-@media (min-width: 992px) {
-  .cid-s85RYUxT7o .media-block {
-    padding-right: 2rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-s85RYUxT7o .media-block {
-    flex-basis: 100%;
-    -webkit-flex-basis: 100%;
-    padding-bottom: 2rem;
-  }
-}
-.cid-s85S0Dt5mH {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-s85S0Dt5mH .progress {
-  width: 100%;
-}
-.cid-s85S0Dt5mH progress {
-  height: 8px;
-}
-.cid-s85S0Dt5mH h3 {
-  text-align: center;
-  font-weight: 300;
-}
-.cid-s85S0Dt5mH .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-s85S0Dt5mH .progress_value {
-  position: relative;
-}
-.cid-s85S0Dt5mH .progress_elements {
-  margin: 0 auto;
-}
-.cid-s85S0Dt5mH .title-wrap {
-  display: flex;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-}
-.cid-s85S0Dt5mH .progress1 .progressbar-number:before,
-.cid-s85S0Dt5mH .progress2 .progressbar-number:before,
-.cid-s85S0Dt5mH .progress3 .progressbar-number:before,
-.cid-s85S0Dt5mH .progress4 .progressbar-number:before {
-  position: absolute;
-  right: 15px;
-  top: 0;
-}
-.cid-s85S0Dt5mH progress[value]::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.cid-s85S0Dt5mH progress::-webkit-progress-value {
-  background: #149dcc;
-}
-.cid-s85S0Dt5mH progress[value]::-moz-progress-bar {
-  background: #149dcc;
-}
-.cid-s85S0Dt5mH progress::-ms-fill {
-  background: #149dcc;
-}
-.cid-s85S0Dt5mH .progress1 .progressbar-number:before {
-  content: '70';
-}
-.cid-s85S0Dt5mH .progress2 .progressbar-number:before {
-  content: '80';
-}
-.cid-s85S0Dt5mH .progress3 .progressbar-number:before {
-  content: '90';
-}
-.cid-s85S0Dt5mH .progress4 .progressbar-number:before {
-  content: '100';
-}
-.cid-s85S0Dt5mH .progress-primary {
-  background: rgba(206, 206, 206, 0.4);
-  border: none;
-  outline: none;
-}
-.cid-s85S0Dt5mH .progress-primary::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.cid-s85S0Dt5mH .progress_value span {
-  padding-left: 30px;
-}
-.cid-s85S3sWFlX {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-s85S3sWFlX .pricing {
-  padding: 3.3rem;
-  color: #767676;
-  background-color: #fff;
-}
-@media (max-width: 767px) {
-  .cid-s85S3sWFlX .pricing {
-    padding: 1.5rem;
-  }
-}
-.cid-s85S3sWFlX .plan-header,
-.cid-s85S3sWFlX .plan-body {
-  background-color: #fff;
-}
-.cid-s85S3sWFlX .plan-title {
-  margin-top: 1.4rem;
-}
-.cid-s85S3sWFlX .price-figure {
-  font-weight: 700;
-  color: #232323;
-}
-@media (max-width: 550px) {
-  .cid-s85S3sWFlX .price-figure {
-    font-size: 4.25rem;
-  }
-}
-.cid-s85S3sWFlX .price-value {
-  font-weight: 700;
-  vertical-align: top;
-}
-.cid-s85S3sWFlX hr {
-  margin: 2rem 0;
 }
