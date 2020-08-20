@@ -404,8 +404,8 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/candy-1-400x267.jpg",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/8-888x593.jpg",
+                "active": false,
                 "showButtons": true,
                 "showText": false,
                 "showTitle": false,
@@ -420,10 +420,10 @@
                 "overlay": false,
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info-outline display-2\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GOBY</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-2\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GOBY</a> "
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/kamilla-268x210.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pom-favorit-fantino-venustus-maximus-1917x1278.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": false,
@@ -432,18 +432,18 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
-                "customStyle3": "display-4",
+                "customStyle3": "display-2",
                 "alt": "",
                 "title": "",
                 "textTitle": "ВИДЕО СЛАЙД",
                 "overlay": false,
-                "contentAlign": "left",
+                "contentAlign": "center",
                 "text": "Слайд с фоновым изображением YouTube и цветным наложением. Заголовок и текст выровнены влево.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  display-4 btn-success-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ДЛЯ MAC</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-info display-2\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">POM</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/bella-400x267.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/father2-960x640.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": false,
                 "showTitle": false,
@@ -451,14 +451,14 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
-                "customStyle3": "display-4",
+                "customStyle3": "display-2",
                 "alt": "",
                 "title": "",
                 "textTitle": "СЛАЙДЕР ИЗОБРАЖЕНИЙ",
                 "overlay": false,
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ДЛЯ WINDOWS</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-2\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GERY</a> "
               }
             ]
           },
