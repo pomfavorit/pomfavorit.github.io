@@ -49,7 +49,7 @@
     "uniqCompNum": 20,
     "versionPublish": "5.1.4",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
