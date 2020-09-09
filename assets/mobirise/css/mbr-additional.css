@@ -1285,16 +1285,16 @@ a {
   padding: 0;
   position: relative;
   cursor: pointer;
-  color: #efbb5b;
+  color: #dc6c44;
   border-width: 2px;
   transition: all .3s;
-  border-color: #efbb5b;
+  border-color: #dc6c44;
 }
 .cid-sa4nUedPw4 .btn-social:hover {
-  background: #efbb5b;
+  background: #dc6c44;
 }
 .cid-sa4nUedPw4 .btn-social:hover i.socicon {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 .cid-sa4QtZ4XTG .navbar-dropdown {
   position: relative !important;
