@@ -718,14 +718,8 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-sa49RGc2lE {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
-}
-.cid-sa49RGc2lE nav.navbar {
-  position: fixed;
+.cid-sa49RGc2lE .navbar-dropdown {
+  position: relative !important;
 }
 .cid-sa49RGc2lE .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1041,7 +1035,6 @@ a {
 }
 .cid-sa49RGc2lE .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-sa49RGc2lE a.nav-link {
   display: flex;
@@ -1716,7 +1709,7 @@ a {
 .cid-sa4nWDzRvs {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #efbb5b;
 }
 .cid-sa4nWDzRvs .image-wrapper {
   display: flex;
@@ -1726,7 +1719,7 @@ a {
   margin-bottom: 2rem;
   display: flex;
   border-radius: 4px;
-  background: #fafafa;
+  background: #88b865;
 }
 @media (max-width: 991px) {
   .cid-sa4nWDzRvs .card-wrapper {
@@ -1752,7 +1745,7 @@ a {
 .cid-sa4nUedPw4 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #5db6ca;
 }
 .cid-sa4nUedPw4 [class^="socicon-"]:before,
 .cid-sa4nUedPw4 [class*=" socicon-"]:before {
@@ -1767,14 +1760,14 @@ a {
   padding: 0;
   position: relative;
   cursor: pointer;
-  color: #6592e6;
+  color: #efbb5b;
   border-width: 2px;
   transition: all .3s;
-  border-color: #6592e6;
+  border-color: #efbb5b;
 }
 .cid-sa4nUedPw4 .btn-social:hover {
-  background: #6592e6;
+  background: #efbb5b;
 }
 .cid-sa4nUedPw4 .btn-social:hover i.socicon {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
